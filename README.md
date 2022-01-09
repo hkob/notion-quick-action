@@ -2,6 +2,7 @@
 
 a macOS service to add a new notion task and a calendar event
 
+[日本語版 README はこちら](README.ja.md)
 ## How to install
 
 - Download workflow from here
