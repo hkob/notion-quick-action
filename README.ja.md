@@ -77,7 +77,19 @@ const OPEN_BY_APP = true
 このデータベースを API からアクセスできるように、右上の`共有`で開くダイアログにて先ほど作成したインテグレーションを招待します。
 追加ができるように編集権限を与えてください。
 
-![abc](ShareForIntegration-J.png)
+![インテグレーションの許可](ShareForIntegration-J.png)
+
+## データベース id の取得
+
+最後に DATABASE_ID を取得します。許可したデータベースをページで表示した状態で、メニューから「リンクをコピー」をクリックします。
+
+![リンクをコピー](CopyLink-J.png)
+
+コピーしたリンクは以下の形式になっています。この 32 桁の XXXX... の部分がデータベース ID になります。この部分だけを取り出して、ワークシートの DATABASE_ID に設定してください。
+
+```text
+https://www.notion.so/hkob/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX?v=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+```
 
 ## 使い方
 
