@@ -7,7 +7,7 @@ a macOS service to add a new notion task and a calendar event
 ## How to install
 
 - Download workflow from here
-[https://github.com/hkob/notion-quick-action/releases/download/1.0/NotionQuickAction.workflow.zip]
+[https://github.com/hkob/notion-quick-action/releases/download/1.1/NotionQuickAction.workflow.zip]
 
 - Unpack the zip file
 - Down click the workflow file
@@ -92,3 +92,11 @@ The ID of the NOTION page is also registered in the event description field as `
 ![movie](NotionQuickAction.gif)
 
 - [blog in Japanese](https://hkob.hatenablog.com/entry/2022/01/08/130000)
+
+## Change Log
+
+- Ver. 1.1
+  - Bug fix: escape single quote
+
+- Ver. 1.0
+  - First release

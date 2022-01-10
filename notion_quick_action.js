@@ -92,7 +92,7 @@ function sendNotion(app, url, payload, method) {
     "--header 'Content-Type: application/json' " +
     "--header 'Notion-Version: 2021-08-16' " +
     "--data '"
-  const script = "curl -X " + method + " " + url + header + JSON.stringify(payload) + "'"
+  const script = "curl -X " + method + " " + url + header + JSON.stringify(payload).replaceAll("'", '\'"\'"\'') + "'"
   return JSON.parse(app.doShellScript(script))
 }
 

@@ -5,7 +5,7 @@ NotionQuickAction.workflow はNotion のタスクデータベースのページ�
 ## インストール方法
 
 - 以下のリンクから NotionQuickAction.workflow をダウンロードします。
-[https://github.com/hkob/notion-quick-action/releases/download/1.0/NotionQuickAction.workflow.zip]
+[https://github.com/hkob/notion-quick-action/releases/download/1.1/NotionQuickAction.workflow.zip]
 
 - zip ファイルのままの場合には展開します。
 - workflow を実行します。
@@ -95,3 +95,11 @@ const OPEN_BY_APP = true
 ![movie](NotionQuickAction.gif)
 
 - [ブログでの解説](https://hkob.hatenablog.com/entry/2022/01/08/130000)
+
+## 更新履歴
+
+- Ver. 1.1
+  - シングルクオートがあった時にエラーになっていたのでエスケープするようにした
+
+- Ver. 1.0
+  - 最初のリリース
